@@ -1,0 +1,35 @@
+
+.open-sans-inter {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+/* Header style */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 50px 200px;
+}
+.nav-titel{
+    font-weight: 800px;
+    font-size: 34px;
+    font-style: inter;
+    
+}
+.btn-primary{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 18px 35px;
+    border: none;
+    border-radius: 10px;
+    
+}
+.text-primary{
+    color: #4E47FF;
+}
