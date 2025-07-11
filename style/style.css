@@ -7,7 +7,7 @@ body{
     
 }
 
-
+/* font style */
 
 .raleway-font{
   font-family: "Raleway", sans-serif;
@@ -101,7 +101,11 @@ body{
 
 .text-primary{
     color: #4E47FF;
-} 
+}
+
+ /* header style */
+
+
 /* banner style */
 .banner{
     text-align: center;
@@ -166,8 +170,12 @@ body{
 
 }
 .user-item .description{
-    font-size: 20px;
+    padding: 0px 0px 0px 13px;
+    font-size: 18px;
     color: #0000005f;
+    
+    
+    
     
 }
 /* touch section style */
@@ -237,3 +245,65 @@ ul li{
     text-decoration: none;
     color: #8987A1;
 }
+/* user feedback */
+.feedback{
+    border: 2px solid #f0e9e9;
+    border-radius: 15px;
+    margin: 130px 70px;
+    padding: 20px 70px 30px 20px;
+    
+    
+
+}
+
+.user-feedback {
+    text-align: left; 
+    margin-top: 100px;
+    margin-bottom: 100px;
+   
+}
+
+.user-titel{
+    font-size: 42px;
+    font-weight: bold;
+    text-align: center;
+    
+}
+.star{
+    display: flex;
+    padding: 0px 0px 10px 0px;
+    justify-content: left;
+    
+    
+}
+
+.feedback-img{
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+}
+
+
+.feedback-person{
+    display: flex;
+    justify-content: left;
+    gap: 10px;
+    align-items: center;
+}
+.feedback-info .name{
+    font-weight: 600;
+    color: #757575;
+}
+.feedback-info .date{
+    display: block;
+    color: #B3B3B3;
+}
+.user-card{
+    display: flex;
+    gap: 2rem;
+    flex-wrap: wrap;             
+    justify-content: center;
+
+
+}
+
