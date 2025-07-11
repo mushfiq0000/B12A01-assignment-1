@@ -173,11 +173,9 @@ body{
     padding: 0px 0px 0px 13px;
     font-size: 18px;
     color: #0000005f;
-    
-    
-    
-    
+       
 }
+
 /* touch section style */
 
 
@@ -209,6 +207,7 @@ body{
     padding: 10px 20px;
     margin-bottom: 24px;
     border-color: #00000022;
+    font-size: 20px;
 }
 form label{
     font-size: 18px;
