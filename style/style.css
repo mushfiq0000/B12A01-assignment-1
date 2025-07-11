@@ -1,25 +1,56 @@
 
-.open-sans-inter {
-  font-family: "Open Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-  font-variation-settings:
-    "wdth" 100;
+body{
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
 }
+
+
+
+.raleway-font{
+  font-family: "Raleway", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
+.inter-font{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+
 /* Header style */
-nav{
+.bg-img{
+    
+    background-image: url(../Assets/Hero-bg.png);
+    height: 100vh;
+    max-width: auto;
+    display: flex;
+    background-size: cover;
+    background-size: contain;
+    background-position: center;
+    flex-direction: column;
+    
+
+
+}
+.header{
     display: flex;
     align-items: center;
     justify-content: space-between;
     margin: 50px 200px;
 }
-.nav-titel{
-    font-weight: 800px;
+.logo{
+    font-weight: 800;
     font-size: 34px;
-    font-style: inter;
+    
     
 }
+/* button style */
+
 .btn-primary{
     background-color: #4E47FF;
     font-weight: bold;
@@ -28,8 +59,93 @@ nav{
     padding: 18px 35px;
     border: none;
     border-radius: 10px;
-    
 }
+
+.button-Focused{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 5px;
+}
+.btn-launch{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 35px;
+    border: none;
+    border-radius: 7px;
+}
+
+/* share style */
+
 .text-primary{
     color: #4E47FF;
+} 
+/* banner style */
+.banner{
+    text-align: center;
+    font-size: 65px;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.banner h3{
+    font-weight: bold;
+    color: #1a1a1a;
+    margin-bottom: 20px;
+}
+
+/* main style */
+
+/* action style */
+
+.action{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 200px 100px 200px;
+}
+
+.action-titel h3{
+    font-size: 42px;
+    font-weight: bold;
+}
+.action-titel p{
+    font-size: 24px;
+    color: #25243296;
+}
+.action img{
+    border-radius: 50px;
+}
+/* productive-users style */
+.productive-users{
+    border-radius: 40px;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 20px 150px 20px 150px;
+}
+
+
+.productive-users h3{
+    font-size: 38px;
+    font-weight: bold;
+    text-align: center;
+
+}
+.bg-color{
+    background-color: #4d47ff25;
+}
+.users-items{
+    display: flex;
+    justify-content: space-around;
+}
+.user-item h1{
+    font-size: 80px;
+
+}
+.user-item p{
+    font-size: 20px;
+    color: #0000005f;
 }
