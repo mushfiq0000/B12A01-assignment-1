@@ -51,6 +51,9 @@ body{
     
 }
 /* button style */
+.Hover:hover{
+    background-color: cadetblue;
+}
 
 .btn-primary{
     background-color: #4E47FF;
@@ -60,6 +63,7 @@ body{
     padding: 18px 35px;
     border: none;
     border-radius: 10px;
+    cursor: pointer;
 }
 
 .button-Focused{
@@ -70,6 +74,7 @@ body{
     padding: 12px 35px;
     border: none;
     border-radius: 5px;
+    cursor: pointer;
 }
 .btn-launch{
     background-color: #4E47FF;
@@ -79,6 +84,7 @@ body{
     padding: 12px 35px;
     border: none;
     border-radius: 7px;
+    cursor: pointer;
 }
 .btn-get-in-touch{
     background-color: #4E47FF;
@@ -88,6 +94,7 @@ body{
     padding: 12px 277px;
     border: none;
     border-radius: 7px;
+    cursor: pointer;
 }
 
 /* share style */
