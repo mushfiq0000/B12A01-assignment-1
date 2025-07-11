@@ -3,6 +3,7 @@ body{
     height: 100%;
     margin: 0;
     padding: 0;
+    background-color: #d6dded41;
     
 }
 
@@ -79,6 +80,15 @@ body{
     border: none;
     border-radius: 7px;
 }
+.btn-get-in-touch{
+    background-color: #4E47FF;
+    font-weight: bold;
+    font-size: 16px;
+    color: #FFFFFF;
+    padding: 12px 277px;
+    border: none;
+    border-radius: 7px;
+}
 
 /* share style */
 
@@ -105,7 +115,8 @@ body{
 .action{
     display: flex;
     justify-content: space-between;
-    margin: 0 200px 100px 200px;
+    margin: 100px 200px 100px 200px;
+    padding: 100px;
 }
 
 .action-titel h3{
@@ -123,7 +134,7 @@ body{
 .productive-users{
     border-radius: 40px;
     max-width: 1140px;
-    margin: 0 auto;
+    margin: 100px auto;
     padding: 20px 150px 20px 150px;
 }
 
@@ -141,11 +152,51 @@ body{
     display: flex;
     justify-content: space-around;
 }
-.user-item h1{
+.user-item .productive{
     font-size: 80px;
+    font-weight: 600;
+    margin-bottom: 10px;
 
 }
-.user-item p{
+.user-item .description{
     font-size: 20px;
     color: #0000005f;
+    
 }
+/* touch section style */
+
+
+
+.touches{
+    padding: 130px 230px;
+    display: flex;
+    gap: 100px;
+}
+
+.touch-titel{
+    font-size: 97px;
+}
+.touch-column{
+    width: 50%;
+    
+}
+.input-column::placeholder{
+    color: #00000062;
+    font-size: 20px;
+}
+
+.touches input[type="email"], .touches input[type="text"], .touches textarea{
+    height: 64px;
+    border-radius: 7px;
+    background-color: #FFFFFF;
+    display: block;
+    width: 90%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border-color: #00000022;
+}
+form label{
+    font-size: 18px;
+    font-weight: 500;
+}
+
