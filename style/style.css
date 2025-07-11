@@ -199,4 +199,34 @@ form label{
     font-size: 18px;
     font-weight: 500;
 }
+/* footer style */
+footer{
+    background-color: #FFFFFF;
+}
+.footer-section{
+    text-align: center;
+    padding: 130px 230px;
+}
 
+.footer-titel{
+    font-size: 100px;
+    font-weight: 800;
+    color: #4E47FF;
+}
+.footer-description{
+    font-size: 20px;
+    color: #8987A1;
+}
+ul li{
+    list-style: none;
+}
+.footer-items{
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+}
+
+.footer-items a{
+    text-decoration: none;
+    color: #8987A1;
+}
